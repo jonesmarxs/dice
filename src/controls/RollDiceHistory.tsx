@@ -52,7 +52,7 @@ export function RollDiceHistory() {
 
   return (
     <>
-      <Tooltip title="History" placement="top" disableInteractive>
+      <Tooltip title="Histórico de rolagens" placement="top" disableInteractive>
         <IconButton
           id="history-button"
           aria-controls={open ? "history-menu" : undefined}
